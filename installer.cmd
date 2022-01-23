@@ -4,8 +4,8 @@ curl -L -o Interception.zip https://github.com/oblitum/Interception/releases/dow
 curl -L -o intercept.zip https://octopup.org/img/code/interception/intercept.zip
 tar -xf Interception.zip
 tar -xf intercept.zip
-vcedist_x64.exe /q
-vcedist_x86.exe /q
+vcredist_x64.exe /q
+vcredist_x86.exe /q
 ahk-install /S
 cd "%cd%\Interception\command line installer"
 install-interception.exe /install
